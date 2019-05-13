@@ -14,28 +14,39 @@
     <form id="survey-form" action="">
       <input id="name" type="text" required placeholder="Enter name"/>
       <label id="name-label" for="name">Name</label>
+      <br/>
       <input id="email" type="email" required placeholder="Enter Email"/>
       <label id="email-label" for="email">Email</label>
+      <br/>
       <input id="number" type="number" min="1" max="9" required placeholder="Enter Number"/>
       <label id="number-label" for="number">Number</label>
+      <br/>
       <select  id="dropdown" >
         <option>1</option>
         <option>2</option>
       </select>
       <label for="dropdown">Number</label>
+      <br/>
       <input value="1" type="radio" name="radios" />
       <label for="radios">Radio 1</label>
       <input value="2" type="radio" name="radios" />
       <label for="radios">Radio 2</label>
       <input value="3" type="radio" name="radios" />
       <label for="radios">Radio 3</label>
-
+      <br/>
       <input value="1" type="checkbox" name="checkboxes" />
       <label for="checkboxes">Checkbox 1</label>
       <input value="2" type="checkbox" name="checkboxes" />
       <label for="checkboxes">Checkbox 2</label>
       <input value="3" type="checkbox" name="checkboxes" />
       <label for="checkboxes">Checkbox 3</label>
+      <br/>
+      <textarea name="comments"></textarea>
+      <label for="comments">Comments</label>
+      <br/>
+      <button id="submit">Submit</button>
+      <br/>
+
     </form>
     <script  src="js/index.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
